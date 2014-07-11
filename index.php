@@ -24,6 +24,8 @@ if (!isset($_SESSION['user']) or !$_SESSION['user']) {
 
 <p>Autorem projektu je <a href="http://karelbilek.com">Karel Bílek</a>; o projektu více <a href="http://www.czerust.cz/mt/about.html">zde</a>. Hodnotící systém má zdrojový kód <a href="https://github.com/runn1ng/compare-machine-translations">tu</a>; inspirováno systémem <a href="https://github.com/cfedermann/Appraise">Appraise</a>.</p>
 
+<p>Případné komentáře pište na <a href="mailto:kb@karelbilek.com">můj e-mail</a>.</p>
+
 <?php
 } else {
 
@@ -148,9 +150,22 @@ margin-top: 0;
 margin-bottom: 5px;
 color:#69AA58;
 }
+
+#refhide {
+    display:none;
+}
+
+#refshow {
+    margin-top:8px;
+}
+
+.veta {
+margin-bottom:8px;
+}
+
 </style>
 
-<div class="row">
+<div class="row veta">
     <div class="col-md-6">
 
 
@@ -168,12 +183,22 @@ color:#69AA58;
 
         <div class="ref">
         <h4>Reference</h4>
+        <div id="refhide">
         <?php
         print htmlspecialchars($sent['target']);
         ?>
         </div>
+        <button class="btn btn-default" id="refshow">Zobrazit</a>
+        </div>
 
     </div>
+    <script>
+    $('#refshow').click(function() {
+        $('#refshow').hide(50);
+        $('#refhide').show(50);
+
+    });
+    </script>
 
 </div>
 <div class="row">
@@ -200,7 +225,7 @@ color:#69AA58;
 <table class="table mytable">
     
   <?php
-    $i=0;
+    $i=-1;
     foreach($variants as $variant) {
     $i++;
     if ($i%2==0) {

@@ -101,8 +101,11 @@ $uinfo=get_user_info($_SESSION['user']);
 <div class="alert alert-info" role="alert">
 Srovnejte překlady od nejlepšího po nejhorší. Je povolené, aby dvě věty měly stejné číslo; přesto je lepší vnímat hodnocení spíš jako řazení, než jako známkování.<br><br>
 
-Není nutné nad hodnocením tolik přemýšlet, nejde o "test"; dejte spíše na první dojem.
+Není nutné nad hodnocením tolik přemýšlet, nejde o "test"; dejte spíše na první dojem.<br><br>
+Referenční překlad je pouze orientační a nemusí být vždy 100% správný.
 </div>
+
+<p>Případné komentáře pište na <a href="mailto:kb@karelbilek.com">můj e-mail</a>.</p>
 
 <?php } ?>
 
