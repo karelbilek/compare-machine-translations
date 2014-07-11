@@ -83,7 +83,7 @@ echo $chyba;
 Byl jste úspěšně registrován.
 
 </div>
-<a href="http://czerust.cz/mt/">na hlavní stránku</a>
+<a href="http://www.czerust.cz/mt/">na hlavní stránku</a>
 
 
 <?php

@@ -90,7 +90,7 @@ $uinfo=get_user_info($_SESSION['user']);
 <div class="row">
   <div class="col-sm-5"></div>
   <div class="col-sm-7">
-<a href="http://czerust.cz/mt/logout.php">Odhlásit</a></div>
+<a href="http://www.czerust.cz/mt/logout.php">Odhlásit</a></div>
 </div>
 
 

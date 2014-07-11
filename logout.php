@@ -2,7 +2,7 @@
 session_start();
 
             $_SESSION['user']=0;
-header("Location: http://czerust.cz/mt/");
+header("Location: http://www.czerust.cz/mt/");
 
 
 ?>

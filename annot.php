@@ -55,7 +55,7 @@ foreach($systems as $system) {
 $pdo->commit();
 
 
-        header("Location: http://czerust.cz/mt/");
+        header("Location: http://www.czerust.cz/mt/");
 
 ?>
 
