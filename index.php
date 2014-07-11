@@ -20,9 +20,9 @@ if (!isset($_SESSION['user']) or !$_SESSION['user']) {
 
 <img src="http://i.imgur.com/MeL8wG1l.png">
 
-<p>Pro start klikněte na <a href="http://178.79.146.93/mt/register.php">registrace</a> a registrujte se s libovolným jménem.</p>
+<p>Pro start klikněte na <a href="http://czerust.cz/mt/register.php">registrace</a> a registrujte se s libovolným jménem.</p>
 
-<p>Autorem projektu je <a href="http://karelbilek.com">Karel Bílek</a>; o projektu více <a href="http://178.79.146.93/mt/about.html">zde</a>. Hodnotící systém má zdrojový kód </p>
+<p>Autorem projektu je <a href="http://karelbilek.com">Karel Bílek</a>; o projektu více <a href="http://czerust.cz/mt/about.html">zde</a>. Hodnotící systém má zdrojový kód <a href="https://github.com/runn1ng/compare-machine-translations">tu</a>; inspirováno systémem <a href="https://github.com/cfedermann/Appraise">Appraise</a>.</p>
 
 <?php
 } else {

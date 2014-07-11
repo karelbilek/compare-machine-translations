@@ -83,7 +83,7 @@ echo $chyba;
 Byl jste úspěšně registrován.
 
 </div>
-<a href="http://178.79.146.93/mt/">na hlavní stránku</a>
+<a href="http://czerust.cz/mt/">na hlavní stránku</a>
 
 
 <?php

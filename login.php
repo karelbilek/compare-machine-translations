@@ -31,7 +31,7 @@ $pass = $_POST['password'];
         $pass_hash = $res['pass'];     
         if (password_verify($pass, $pass_hash)) {
             $_SESSION['user']=$res['id'];
-        header("Location: http://178.79.146.93/mt/");
+        header("Location: http://czerust.cz/mt/");
             
         } else {
 
@@ -56,7 +56,7 @@ include 'head.php';
 echo $chyba;
 ?>
 </div>
-<a href="http://178.79.146.93/mt/">zpět</a>
+<a href="http://czerust.cz/mt/">zpět</a>
 
 <?php
 

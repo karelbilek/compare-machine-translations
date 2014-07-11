@@ -41,12 +41,12 @@ $pdo = new PDO("mysql:host=$db_address;dbname=$db_name;charset=utf8", $db_userna
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://178.79.146.93/mt/">CzeRusT anotace</a>
+          <a class="navbar-brand" href="http://czerust.cz/mt/">CzeRusT anotace</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="http://178.79.146.93/mt/">Anotace</a></li>
-            <li><a href="http://178.79.146.93/mt/about.html">O projektu</a></li>
+            <li class="active"><a href="http://czerust.cz/mt/">Anotace</a></li>
+            <li><a href="http://czerust.cz/mt/about.html">O projektu</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div> <!--/container-->
